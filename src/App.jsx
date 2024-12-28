@@ -1,4 +1,3 @@
-import Header from "./components/Header";
 import Main from "./components/Main";
 import Skills from "./components/Skills";
 import Profile from "./components/Profile";
@@ -10,7 +9,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Header />
       <Main />
       <Skills />
       <Profile />
