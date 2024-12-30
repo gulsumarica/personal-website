@@ -1,11 +1,12 @@
 /** @type {import('tailwindcss').Config} */
+import colors from "tailwindcss/colors";
 export default {
-  content: ["./src/**/*.{js,jsx,ts,tsx,html}"],
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   darkMode: "class",
   theme: {
     extend: {
       colors: {
-        customGreen: "#CBF281",
+        lime: colors.lime,
       },
     },
   },

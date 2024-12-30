@@ -4,7 +4,7 @@ import Image from "../assets/images/image 2.png";
 
 function Profile() {
   return (
-    <div>
+    <div className="bg-[#4731D3]">
       <h1 className="flex items-start">Profile</h1>
       <div className="flex flex-row">
         <div className="flex flex-col items-center">

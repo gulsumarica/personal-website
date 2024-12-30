@@ -11,12 +11,12 @@ function darkMode() {
   };
   return (
     <>
-      <div className="container mt-3 d-flex gap-4 justify-content-end align-items-center">
-        <div>TÜRKÇE'YE GEÇ</div>
+      <div className="container flex gap-4 justify-end ">
+        <div className="mt-4 text-white">TÜRKÇE'YE GEÇ</div>
         <Form>
           <FormGroup
             switch
-            className="position-relative d-flex align-items-center"
+            className="position-relative d-flex align-items-center mt-4 mr-44"
           >
             <div
               className={`icon-wrapper ${darkMode ? "dark" : "light"}`}
@@ -34,12 +34,14 @@ function darkMode() {
               <div className="icon"></div>
             </div>
             <Label check htmlFor="darkModeSwitch" className="ms-2">
-              DARK MODE
+              {darkMode ? "LIGTH MODE" : "DARK MODE"}
             </Label>
           </FormGroup>
         </Form>
       </div>
-      <h2 className="text-start text-customGreen">{data.name}</h2>
+      <h2 className="flex justify-start ml-72 mt-10 text-green-200">
+        {data.name}
+      </h2>
     </>
   );
 }
