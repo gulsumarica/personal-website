@@ -30,7 +30,6 @@ function darkMode() {
                 readOnly
                 style={{ display: "none" }}
               />
-              {/* İkon alanı */}
               <div className="icon"></div>
             </div>
             <Label check htmlFor="darkModeSwitch" className="ms-2">
