@@ -1,14 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-import colors from "tailwindcss/colors";
 export default {
-  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx,html}", "./public/index.html"],
   darkMode: "class",
   theme: {
     extend: {
       colors: {
-        lime: colors.lime,
+        limeGreen: "#CBF281",
       },
     },
   },
+  safelist: ["bg-[#d0f38d]", "text-[#CBF281]"],
   plugins: [],
 };

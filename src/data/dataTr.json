@@ -1,0 +1,98 @@
+{
+  "hero": {
+    "heroTitle": "Ben bir Frontend Developer...",
+    "heroDesc": "...sağlam ve ölçeklenebilir, harika kullanıcı deneyimlerine sahip frontend ürünleri geliştirmeyi seven biri.",
+    "githubLink": "https://github.com/gulsumarica",
+    "linkedinLink": "https://www.linkedin.com/in/g%C3%BCls%C3%BCm-ar%C4%B1ca-a11008175/"
+  },
+  "skills": {
+    "skillsH": "Skills",
+    "skillsList": [
+      {
+        "id": 1,
+        "name": "JAVASCRIPT",
+        "img": "../../assets/images/js-logo.png"
+      },
+      {
+        "id": 2,
+        "name": "REACT",
+        "img": "../../assets/images/React-logo.png"
+      },
+      {
+        "id": 3,
+        "name": "REDUX",
+        "img": "../../assets/images/Redux-logo.png"
+      },
+      {
+        "id": 4,
+        "name": "NODE",
+        "img": "../../assets/images/node-logo.png"
+      },
+
+      {
+        "id": 5,
+        "name": "VSCODE",
+        "img": "../../assets/images/VS-Code-logo.png"
+      },
+      {
+        "id": 6,
+        "name": "FIGMA",
+        "img": "../../assets/images/figma-logo.png"
+      }
+    ]
+  },
+  "profile": {
+    "profileH": "Profil",
+    "basicInfo": "Temel Bilgiler",
+    "birthday": "Doğum Tarihi",
+    "birthdayDetail": "02.10.2000",
+    "city": "Şehir",
+    "cityDetail": "Bursa",
+    "edu": "Eğitim Durumu",
+    "eduDetail": "Uludağ Üniversitesi, MIS, Lisans",
+    "prefer": "Tercih Ettiği Rol",
+    "preferD": "Frontend",
+    "ProfileImg": "../../assets/images/image2.png",
+    "aboutH": "Hakkımda",
+    "aboutText1": "Mezuniyetimin ardından 3 yıl boyunca IT departmanlarında iş analisti ve süreç geliştirme uzmanı olarak çalıştım. Yazılım dünyasıyla her zaman iç içe oldum ve bir şeyler üretmek benim için her zaman bir tutku oldu. Bu tutkum, beni frontend geliştirme alanına yönlendirdi.",
+    "aboutText2": "Şimdi ise bu alanda kendimi geliştirerek ilerliyorum ve hedeflerime adım adım yaklaşıyorum. Bu yolculukta karşılaştığım her zorluk beni daha da motive ediyor ve daha iyi bir geliştirici olmaya yönlendiriyor."
+  },
+  "projects": {
+    "projectsH": "Projeler",
+    "view": "Siteyi Görüntüle",
+    "projectList": [
+      {
+        "id": 1,
+        "link": "https://github.com/gulsumarica/fsweb-s8-challenge-pizza",
+        "live": "https://fsweb-s8-challenge-pizza-theta.vercel.app/",
+        "heading": "Teknolojik Yemekler",
+        "desc": "Kullanıcıların acıktıklarında kolayca yemek siparişi verebileceği, 'Teknolojik Yemekler' adı altında basit ve kullanıcı dostu bir web sitesi.",
+        "teknologies": [
+          "React",
+          "Tailwindcss",
+          "Cypress",
+          "Vercel",
+          "Axios",
+          "Toastify"
+        ]
+      },
+      {
+        "id": 2,
+        "link": "https://github.com/gulsumarica/personal-website",
+        "live": "https://personal-website-eta-rust.vercel.app/",
+        "heading": "Kişisel Website",
+        "desc": "Kendimi tanıttığım, yeteneklerimi ve bildiklerimi paylaştığım, ayrıca gerçekleştirdiğim projeleri sergilediğim küçük bir web sitesi.",
+        "teknologies": ["React", "Tailwindcss", "Vercel", "Axios", "Toastify"]
+      }
+    ]
+  },
+  "footer": {
+    "heading1": "Mesaj Gönder!",
+    "heading2": "Bir sorunuz veya öneriniz mi var, yoksa sadece merhaba demek mi istiyorsunuz? Buyurun.",
+    "email": "gulsumarica.biz@gmail.com",
+    "twitterIcon": "../../assets/images/twitter.png",
+    "codePenIcon": "../../assets/images/codepen.png",
+    "mailIcon": "../../assets/images/at-sign.png",
+    "instagramIcon": "../../assets/images/instagram.png"
+  }
+}

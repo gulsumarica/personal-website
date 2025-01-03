@@ -1,15 +1,17 @@
 import React from "react";
-import TwitterIcon from "../assets/images/twitter 1.png";
-import CodePenIcon from "../assets/images/codepen 1.png";
-import atIcon from "../assets/images/at-sign 1.png";
-import InstagramIcon from "../assets/images/instagram 1.png";
-
+import TwitterIcon from "../../public/assets/images/twitter.png";
+import CodePenIcon from "../../public/assets/images/codepen.png";
+import atIcon from "../../public/assets/images/at-sign.png";
+import InstagramIcon from "../../public/assets/images/instagram.png";
+import data from "../data/dataEng.json";
 function Footer() {
   return (
-    <div>
-      <h2>Send me a message!</h2>
-      <p>Got a question or proposal, or just want to say hello? Go ahead.</p>
-      <p>gulsumarica.biz@gmail.com</p>
+    <div className="flex flex-col items-center w-screen">
+      <h2>{data.footer.heading1}</h2>
+      <p>{data.footer.heading2}</p>
+      <p className="underline underline-offset-8 text-sky-600	">
+        {data.footer.email}
+      </p>
       <div className="flex items-center gap-4">
         <img src={TwitterIcon} alt="" />
         <img src={CodePenIcon} alt="" />
