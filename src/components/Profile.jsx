@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../data/dataEng.json";
-import Image from "../../public/assets/images/image2.png";
+import Image from "../assets/image2.png";
 
 function Profile() {
   return (

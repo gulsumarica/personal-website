@@ -11,33 +11,33 @@
       {
         "id": 1,
         "name": "JAVASCRIPT",
-        "img": "../../assets/images/js-logo.png"
+        "img": "../assets/js-logo.png"
       },
       {
         "id": 2,
         "name": "REACT",
-        "img": "../../assets/images/React-logo.png"
+        "img": "../assets/React-logo.png"
       },
       {
         "id": 3,
         "name": "REDUX",
-        "img": "../../assets/images/Redux-logo.png"
+        "img": "../assets/Redux-logo.png"
       },
       {
         "id": 4,
         "name": "NODE",
-        "img": "../../assets/images/node-logo.png"
+        "img": "../assets/node-logo.png"
       },
 
       {
         "id": 5,
         "name": "VSCODE",
-        "img": "../../assets/images/VS-Code-logo.png"
+        "img": "../assets/VS-Code-logo.png"
       },
       {
         "id": 6,
         "name": "FIGMA",
-        "img": "../../assets/images/figma-logo.png"
+        "img": "../assets/figma-logo.png"
       }
     ]
   },
@@ -67,7 +67,7 @@
         "live": "https://fsweb-s8-challenge-pizza-theta.vercel.app/",
         "heading": "Technological Pizza",
         "desc": "A simple and user-friendly website called 'Technological Meals,' where users can easily order food whenever they are hungry.",
-        "img": "../../public/assets/images/home.png",
+        "img": "/assets/images/home.png",
         "teknologies": [
           "React",
           "Tailwindcss",
@@ -83,7 +83,7 @@
         "live": "https://personal-website-eta-rust.vercel.app/",
         "heading": "Personal Website",
         "desc": "A small website where I introduce myself, showcase my skills and knowledge, and present the projects I have worked on.",
-        "img": "../../public/assets/images/proje2.png",
+        "img": "/assets/images/proje2.png",
         "teknologies": ["React", "Tailwindcss", "Vercel", "Axios", "Toastify"]
       }
     ]
@@ -92,9 +92,9 @@
     "heading1": "Send me a message!",
     "heading2": "Got a question or proposal, or just want to say hello? Go ahead.",
     "email": "gulsumarica.biz@gmail.com",
-    "twitterIcon": "../../assets/images/twitter.png",
-    "codePenIcon": "../../assets/images/codepen.png",
-    "mailIcon": "../../assets/images/at-sign.png",
-    "instagramIcon": "../../assets/images/instagram.png"
+    "twitterIcon": "assets/twitter.png",
+    "codePenIcon": "assets/codepen.png",
+    "mailIcon": "assets/at-sign.png",
+    "instagramIcon": "assets/instagram.png"
   }
 }

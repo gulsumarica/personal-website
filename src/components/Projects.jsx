@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectBg from "../../public/assets/images/projects-bg.png";
+import ProjectBg from "../assets/projects-bg.png";
 import data from "../data/dataEng.json";
 
 function Projects() {

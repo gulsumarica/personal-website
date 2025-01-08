@@ -1,8 +1,8 @@
 import React from "react";
-import TwitterIcon from "../../public/assets/images/twitter.png";
-import CodePenIcon from "../../public/assets/images/codepen.png";
-import atIcon from "../../public/assets/images/at-sign.png";
-import InstagramIcon from "../../public/assets/images/instagram.png";
+import TwitterIcon from "../assets/twitter.png";
+import CodePenIcon from "../assets/codepen.png";
+import atIcon from "../assets/at-sign.png";
+import InstagramIcon from "../assets/instagram.png";
 import data from "../data/dataEng.json";
 function Footer() {
   return (

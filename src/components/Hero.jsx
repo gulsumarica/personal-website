@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import MainHeroBg from "../../public/assets/images/hero-bg.png";
-import ProfilePicture from "../../public/assets/images/Profil.jpeg";
+import MainHeroBg from "../assets/hero-bg.png";
+import ProfilePicture from "../assets/Profil.jpeg";
 import DarkMode from "./DarkMode.jsx";
 import dataEng from "../data/dataEng.json";
 import dataTr from "../data/dataTr.json";

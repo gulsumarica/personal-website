@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import JsLogo from "../../public/assets/images/js-logo.png";
-import ReactLogo from "../../public/assets/images/react-logo.png";
-import ReduxLogo from "../../public/assets/images/Redux-logo.png";
-import NodeLogo from "../../public/assets/images/node-logo.png";
-import VSCodeLogo from "../../public/assets/images/VS-Code-logo.png";
-import FigmaLogo from "../../public/assets/images/figma-logo.png";
+import JsLogo from "../assets/js-logo.png";
+import ReactLogo from "../assets/react-logo.png";
+import ReduxLogo from "../assets/Redux-logo.png";
+import NodeLogo from "../assets/node-logo.png";
+import VSCodeLogo from "../assets/VS-Code-logo.png";
+import FigmaLogo from "../assets/figma-logo.png";
 
 function Skills() {
   return (
